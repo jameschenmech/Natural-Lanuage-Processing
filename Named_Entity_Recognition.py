@@ -7,6 +7,9 @@ Created on Wed Feb 28 14:57:21 2018
 
 # Import necessary modules
 import nltk
+nltk.download('averaged_perceptron_tagger')
+nltk.download('maxent_ne_chunker')
+nltk.download('words')
 #from nltk.tokenize import sent_tokenize
 #from nltk.tokenize import word_tokenize
 #from nltk.tokenize import regexp_tokenize, TweetTokenizer
